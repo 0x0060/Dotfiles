@@ -1,0 +1,122 @@
+[global]
+monitor = 0
+follow = mouse
+geometry = "450x50-10+51"
+indicate_hidden = yes
+shrink = no
+separator_height = 2
+separator_color = auto
+padding = 15
+margin = 15
+horizontal_padding = 15
+frame_width = 2
+sort = no
+idle_threshold = 120
+font = Iosevka Nerd Font 9.5
+line_height = 6
+markup = full
+format = "<i>%a</i>\n%s\n%b"
+alignment = left
+show_age_threshold = 60
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = false
+hide_duplicate_count = yes
+show_indicators = no
+icon_position = left
+max_icon_size = 48
+sticky_history = yes
+history_length = 1000
+browser = x-www-browser -new-tab
+always_run_script = true
+title = Dunst
+class = Dunst
+
+
+
+[shortcuts]
+close = ctrl+shift+space
+close_all = ctrl+shift+space
+history = ctrl+grave
+context = ctrl+shift+period
+
+[urgency_low]
+timeout = 2
+background = "#080808"
+foreground = "#cccccc"
+frame_color = "#252525"
+
+[urgency_normal]
+timeout = 5
+background = "#080808"
+foreground = "#cccccc"
+frame_color = "#252525"
+
+[urgency_critical]
+timeout = 0
+background = "#080808"
+foreground = "#cccccc"
+frame_color = "#252525"
+
+
+
+[rule_telegram]
+appname = telegram-desktop
+format = "<i>Telegram</i>\n%s\n%b"
+[rule_notifysend]
+appname = notify-send
+format = "<i>Notify Send</i>\n%s\n%b"
+[rule_flameshot]
+appname = flameshot
+format = "<i>Flameshot</i>\n%s\n%b"
+[rule_discord]
+appname = discord
+format = "<i>Discord</i>\n%s\n%b"
+[rule_firefox]
+appname = firefox
+format = "<i>Firefox</i>\n%s\n%b"
+[rule_chrome]
+appname = google-chrome
+format = "<i>Google Chrome</i>\n%s\n%b"
+[rule_vscode]
+appname = code
+format = "<i>Visual Studio Code</i>\n%s\n%b"
+[rule_thunderbird]
+appname = thunderbird
+format = "<i>Thunderbird</i>\n%s\n%b"
+[rule_slack]
+appname = slack
+format = "<i>Slack</i>\n%s\n%b"
+[rule_spotify]
+appname = spotify
+format = "<i>Spotify</i>\n%s\n%b"
+[rule_gimp]
+appname = gimp
+format = "<i>GIMP</i>\n%s\n%b"
+[rule_element]
+appname = element-desktop
+format = "<i>Element</i>\n%s\n%b"
+[rule_zoom]
+appname = zoom
+format = "<i>Zoom</i>\n%s\n%b"
+[rule_vlc]
+appname = vlc
+format = "<i>VLC</i>\n%s\n%b"
+[rule_postman]
+appname = postman
+format = "<i>Postman</i>\n%s\n%b"
+[rule_obs]
+appname = obs
+format = "<i>OBS Studio</i>\n%s\n%b"
+[rule_brave]
+appname = brave-browser
+format = "<i>Brave Browser</i>\n%s\n%b"
+[rule_krita]
+appname = krita
+format = "<i>Krita</i>\n%s\n%b"
+[rule_fedora]
+appname = fedora-upgrade
+format = "<i>Fedora Upgrade</i>\n%s\n%b"
+[rule_kdenlive]
+appname = kdenlive
+format = "<i>Kdenlive</i>\n%s\n%b"
