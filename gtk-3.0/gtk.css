@@ -1,0 +1,6 @@
+/* UNITE windowDecorations */
+@import url('/home/xor/.local/share/gnome-shell/extensions/unite@hardpixel.eu/styles/gtk3/buttons-right/maximized.css');
+/* windowDecorations UNITE */
+.nautilus-window .titlebar .button.titlebutton {
+    display: none;
+}
