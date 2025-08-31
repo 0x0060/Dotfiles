@@ -1,0 +1,669 @@
+{
+    "settings": {
+        "autoUpdate": true,
+        "autoUpdateNotification": true,
+        "useQuickCss": true,
+        "themeLinks": [],
+        "eagerPatches": false,
+        "enabledThemes": [],
+        "enableReactDevtools": true,
+        "frameless": true,
+        "transparent": false,
+        "winCtrlQ": false,
+        "disableMinSize": false,
+        "winNativeTitleBar": false,
+        "plugins": {
+            "ChatInputButtonAPI": {
+                "enabled": true
+            },
+            "CommandsAPI": {
+                "enabled": true
+            },
+            "DynamicImageModalAPI": {
+                "enabled": true
+            },
+            "MemberListDecoratorsAPI": {
+                "enabled": true
+            },
+            "MessageAccessoriesAPI": {
+                "enabled": true
+            },
+            "MessageDecorationsAPI": {
+                "enabled": true
+            },
+            "MessageEventsAPI": {
+                "enabled": true
+            },
+            "MessagePopoverAPI": {
+                "enabled": false
+            },
+            "MessageUpdaterAPI": {
+                "enabled": true
+            },
+            "ServerListAPI": {
+                "enabled": false
+            },
+            "UserSettingsAPI": {
+                "enabled": true
+            },
+            "AccountPanelServerProfile": {
+                "enabled": false
+            },
+            "AlwaysAnimate": {
+                "enabled": false
+            },
+            "AlwaysExpandRoles": {
+                "enabled": false
+            },
+            "AlwaysTrust": {
+                "enabled": true,
+                "domain": true,
+                "file": true
+            },
+            "AnonymiseFileNames": {
+                "enabled": false
+            },
+            "AppleMusicRichPresence": {
+                "enabled": false
+            },
+            "BANger": {
+                "enabled": false
+            },
+            "BetterFolders": {
+                "enabled": false,
+                "sidebar": true,
+                "showFolderIcon": 1,
+                "keepIcons": false,
+                "closeAllHomeButton": false,
+                "closeAllFolders": false,
+                "forceOpen": false,
+                "sidebarAnim": true,
+                "closeOthers": false
+            },
+            "BetterGifAltText": {
+                "enabled": false
+            },
+            "BetterGifPicker": {
+                "enabled": true
+            },
+            "BetterNotesBox": {
+                "enabled": true,
+                "hide": true,
+                "noSpellCheck": false
+            },
+            "BetterRoleContext": {
+                "enabled": false,
+                "roleIconFileFormat": "png"
+            },
+            "BetterRoleDot": {
+                "enabled": true,
+                "bothStyles": false,
+                "copyRoleColorInProfilePopout": false
+            },
+            "BetterSessions": {
+                "enabled": true,
+                "backgroundCheck": false
+            },
+            "BetterSettings": {
+                "enabled": true,
+                "disableFade": true,
+                "organizeMenu": true,
+                "eagerLoad": true
+            },
+            "BetterUploadButton": {
+                "enabled": true
+            },
+            "BiggerStreamPreview": {
+                "enabled": false
+            },
+            "BlurNSFW": {
+                "enabled": true,
+                "blurAmount": 10
+            },
+            "CallTimer": {
+                "enabled": true,
+                "format": "stopwatch"
+            },
+            "ClearURLs": {
+                "enabled": true
+            },
+            "ClientTheme": {
+                "enabled": false
+            },
+            "ColorSighted": {
+                "enabled": true
+            },
+            "ConsoleJanitor": {
+                "enabled": true,
+                "disableLoggers": false,
+                "disableSpotifyLogger": true,
+                "whitelistedLoggers": "GatewaySocket; Routing/Utils"
+            },
+            "ConsoleShortcuts": {
+                "enabled": true
+            },
+            "CopyEmojiMarkdown": {
+                "enabled": false
+            },
+            "CopyFileContents": {
+                "enabled": false
+            },
+            "CopyUserURLs": {
+                "enabled": true
+            },
+            "CrashHandler": {
+                "enabled": true
+            },
+            "CtrlEnterSend": {
+                "enabled": false
+            },
+            "CustomRPC": {
+                "enabled": false
+            },
+            "CustomIdle": {
+                "enabled": false
+            },
+            "Dearrow": {
+                "enabled": false
+            },
+            "Decor": {
+                "enabled": false
+            },
+            "DisableCallIdle": {
+                "enabled": true
+            },
+            "DontRoundMyTimestamps": {
+                "enabled": false
+            },
+            "Experiments": {
+                "enabled": true,
+                "toolbarDevMenu": false
+            },
+            "F8Break": {
+                "enabled": false
+            },
+            "FakeNitro": {
+                "enabled": false
+            },
+            "FakeProfileThemes": {
+                "enabled": false
+            },
+            "FavoriteEmojiFirst": {
+                "enabled": false
+            },
+            "FavoriteGifSearch": {
+                "enabled": false
+            },
+            "FixCodeblockGap": {
+                "enabled": false
+            },
+            "FixImagesQuality": {
+                "enabled": true
+            },
+            "FixSpotifyEmbeds": {
+                "enabled": false
+            },
+            "FixYoutubeEmbeds": {
+                "enabled": false
+            },
+            "ForceOwnerCrown": {
+                "enabled": false
+            },
+            "FriendInvites": {
+                "enabled": false
+            },
+            "FriendsSince": {
+                "enabled": false
+            },
+            "FullSearchContext": {
+                "enabled": false
+            },
+            "FullUserInChatbox": {
+                "enabled": false
+            },
+            "GameActivityToggle": {
+                "enabled": false
+            },
+            "GifPaste": {
+                "enabled": false
+            },
+            "GreetStickerPicker": {
+                "enabled": false
+            },
+            "HideMedia": {
+                "enabled": false
+            },
+            "iLoveSpam": {
+                "enabled": true
+            },
+            "IgnoreActivities": {
+                "enabled": false,
+                "listMode": 0,
+                "idsList": "",
+                "ignorePlaying": false,
+                "ignoreStreaming": false,
+                "ignoreListening": false,
+                "ignoreWatching": false,
+                "ignoreCompeting": false
+            },
+            "ImageLink": {
+                "enabled": false
+            },
+            "ImageZoom": {
+                "enabled": false
+            },
+            "ImplicitRelationships": {
+                "enabled": true,
+                "sortByAffinity": true
+            },
+            "InvisibleChat": {
+                "enabled": false
+            },
+            "IrcColors": {
+                "enabled": false
+            },
+            "KeepCurrentChannel": {
+                "enabled": false
+            },
+            "LastFMRichPresence": {
+                "enabled": false
+            },
+            "LoadingQuotes": {
+                "enabled": false
+            },
+            "MemberCount": {
+                "enabled": false
+            },
+            "MentionAvatars": {
+                "enabled": false,
+                "showAtSymbol": true
+            },
+            "MessageClickActions": {
+                "enabled": true,
+                "requireModifier": false,
+                "enableDoubleClickToEdit": true,
+                "enableDoubleClickToReply": true
+            },
+            "MessageLatency": {
+                "enabled": false
+            },
+            "MessageLinkEmbeds": {
+                "enabled": false
+            },
+            "MessageLogger": {
+                "enabled": true,
+                "deleteStyle": "text",
+                "logDeletes": true,
+                "collapseDeleted": false,
+                "logEdits": true,
+                "inlineEdits": true,
+                "ignoreBots": false,
+                "ignoreSelf": false,
+                "ignoreUsers": "",
+                "ignoreChannels": "",
+                "ignoreGuilds": ""
+            },
+            "MessageTags": {
+                "enabled": true,
+                "tagsList": {}
+            },
+            "MoreCommands": {
+                "enabled": false
+            },
+            "MoreKaomoji": {
+                "enabled": false
+            },
+            "Moyai": {
+                "enabled": false
+            },
+            "MutualGroupDMs": {
+                "enabled": false
+            },
+            "NewGuildSettings": {
+                "enabled": true,
+                "guild": true,
+                "messages": 2,
+                "everyone": true,
+                "role": true,
+                "highlights": true,
+                "events": true,
+                "showAllChannels": true
+            },
+            "NoBlockedMessages": {
+                "enabled": true,
+                "ignoreMessages": false,
+                "applyToIgnoredUsers": true
+            },
+            "NoDevtoolsWarning": {
+                "enabled": true
+            },
+            "NoF1": {
+                "enabled": true
+            },
+            "NoMaskedUrlPaste": {
+                "enabled": true
+            },
+            "NoMosaic": {
+                "enabled": false
+            },
+            "NoOnboardingDelay": {
+                "enabled": true
+            },
+            "NoPendingCount": {
+                "enabled": false
+            },
+            "NoProfileThemes": {
+                "enabled": true
+            },
+            "NoRPC": {
+                "enabled": false
+            },
+            "NoReplyMention": {
+                "enabled": false
+            },
+            "NoServerEmojis": {
+                "enabled": false
+            },
+            "NoSystemBadge": {
+                "enabled": true
+            },
+            "NoTypingAnimation": {
+                "enabled": true
+            },
+            "NoUnblockToJump": {
+                "enabled": false
+            },
+            "NormalizeMessageLinks": {
+                "enabled": true
+            },
+            "NotificationVolume": {
+                "enabled": false
+            },
+            "NSFWGateBypass": {
+                "enabled": false
+            },
+            "OnePingPerDM": {
+                "enabled": true,
+                "channelToAffect": "both_dms",
+                "allowMentions": false,
+                "allowEveryone": false
+            },
+            "oneko": {
+                "enabled": false
+            },
+            "OpenInApp": {
+                "enabled": false
+            },
+            "OverrideForumDefaults": {
+                "enabled": false
+            },
+            "PartyMode": {
+                "enabled": false
+            },
+            "PauseInvitesForever": {
+                "enabled": false
+            },
+            "PermissionFreeWill": {
+                "enabled": false
+            },
+            "PermissionsViewer": {
+                "enabled": false
+            },
+            "petpet": {
+                "enabled": false
+            },
+            "PictureInPicture": {
+                "enabled": false
+            },
+            "PinDMs": {
+                "enabled": true,
+                "canCollapseDmSection": false,
+                "userBasedCategoryList": {
+                    "1282723671458316340": [],
+                    "259712333847330816": []
+                },
+                "pinOrder": 0
+            },
+            "PlainFolderIcon": {
+                "enabled": true
+            },
+            "PlatformIndicators": {
+                "enabled": false
+            },
+            "PreviewMessage": {
+                "enabled": false
+            },
+            "QuickMention": {
+                "enabled": false
+            },
+            "QuickReply": {
+                "enabled": true
+            },
+            "ReactErrorDecoder": {
+                "enabled": false
+            },
+            "ReadAllNotificationsButton": {
+                "enabled": false
+            },
+            "RelationshipNotifier": {
+                "enabled": true,
+                "notices": true,
+                "offlineRemovals": true,
+                "friends": true,
+                "friendRequestCancels": true,
+                "servers": true,
+                "groups": true
+            },
+            "ReplaceGoogleSearch": {
+                "enabled": false
+            },
+            "ReplyTimestamp": {
+                "enabled": false
+            },
+            "RevealAllSpoilers": {
+                "enabled": true
+            },
+            "ReverseImageSearch": {
+                "enabled": true
+            },
+            "ReviewDB": {
+                "enabled": false
+            },
+            "RoleColorEverywhere": {
+                "enabled": false
+            },
+            "SecretRingToneEnabler": {
+                "enabled": false
+            },
+            "Summaries": {
+                "enabled": false
+            },
+            "SendTimestamps": {
+                "enabled": false
+            },
+            "ServerInfo": {
+                "enabled": true
+            },
+            "ServerListIndicators": {
+                "enabled": false
+            },
+            "ShikiCodeblocks": {
+                "enabled": true,
+                "theme": "https://raw.githubusercontent.com/shikijs/textmate-grammars-themes/2d87559c7601a928b9f7e0f0dda243d2fb6d4499/packages/tm-themes/themes/vitesse-black.json",
+                "tryHljs": "SECONDARY",
+                "useDevIcon": "GREYSCALE",
+                "bgOpacity": 100,
+                "customTheme": "https://raw.githubusercontent.com/0x0060/Minimal-Mono/refs/heads/main/src/shiki.json"
+            },
+            "ShowAllMessageButtons": {
+                "enabled": false
+            },
+            "ShowConnections": {
+                "enabled": false
+            },
+            "ShowHiddenChannels": {
+                "enabled": false
+            },
+            "ShowHiddenThings": {
+                "enabled": false
+            },
+            "ShowMeYourName": {
+                "enabled": false
+            },
+            "ShowTimeoutDuration": {
+                "enabled": false
+            },
+            "SilentMessageToggle": {
+                "enabled": false
+            },
+            "SilentTyping": {
+                "enabled": true,
+                "showIcon": false,
+                "contextMenu": false,
+                "isEnabled": true
+            },
+            "SortFriendRequests": {
+                "enabled": true,
+                "showDates": true
+            },
+            "SpotifyControls": {
+                "enabled": true,
+                "hoverControls": false
+            },
+            "SpotifyCrack": {
+                "enabled": true,
+                "noSpotifyAutoPause": true,
+                "keepSpotifyActivityOnIdle": false
+            },
+            "SpotifyShareCommands": {
+                "enabled": false
+            },
+            "StartupTimings": {
+                "enabled": false
+            },
+            "StickerPaste": {
+                "enabled": false
+            },
+            "StreamerModeOnStream": {
+                "enabled": false
+            },
+            "SuperReactionTweaks": {
+                "enabled": false
+            },
+            "TextReplace": {
+                "enabled": false
+            },
+            "ThemeAttributes": {
+                "enabled": false
+            },
+            "Translate": {
+                "enabled": false
+            },
+            "TypingIndicator": {
+                "enabled": true,
+                "includeMutedChannels": false,
+                "includeCurrentChannel": true,
+                "indicatorMode": 3
+            },
+            "TypingTweaks": {
+                "enabled": false
+            },
+            "Unindent": {
+                "enabled": false
+            },
+            "UnlockedAvatarZoom": {
+                "enabled": false
+            },
+            "UnsuppressEmbeds": {
+                "enabled": false
+            },
+            "UserMessagesPronouns": {
+                "enabled": true,
+                "pronounsFormat": "LOWERCASE",
+                "showSelf": true
+            },
+            "UserVoiceShow": {
+                "enabled": true,
+                "showInUserProfileModal": true,
+                "showInMemberList": true,
+                "showInMessages": true
+            },
+            "USRBG": {
+                "enabled": false
+            },
+            "ValidReply": {
+                "enabled": false
+            },
+            "ValidUser": {
+                "enabled": true
+            },
+            "VoiceChatDoubleClick": {
+                "enabled": false
+            },
+            "VcNarrator": {
+                "enabled": false
+            },
+            "VencordToolbox": {
+                "enabled": true
+            },
+            "ViewIcons": {
+                "enabled": false
+            },
+            "ViewRaw": {
+                "enabled": false
+            },
+            "VoiceDownload": {
+                "enabled": true
+            },
+            "VoiceMessages": {
+                "enabled": true
+            },
+            "VolumeBooster": {
+                "enabled": true,
+                "multiplier": 2
+            },
+            "WhoReacted": {
+                "enabled": true
+            },
+            "XSOverlay": {
+                "enabled": false
+            },
+            "YoutubeAdblock": {
+                "enabled": false
+            },
+            "BadgeAPI": {
+                "enabled": true
+            },
+            "NoTrack": {
+                "enabled": true,
+                "disableAnalytics": true
+            },
+            "Settings": {
+                "enabled": true,
+                "settingsLocation": "aboveNitro"
+            },
+            "SupportHelper": {
+                "enabled": true
+            },
+            "ExpressionCloner": {
+                "enabled": true
+            },
+            "CopyStickerLinks": {
+                "enabled": false
+            }
+        },
+        "notifications": {
+            "timeout": 5000,
+            "position": "bottom-right",
+            "useNative": "not-focused",
+            "logLimit": 50
+        },
+        "cloud": {
+            "authenticated": false,
+            "url": "https://api.vencord.dev/",
+            "settingsSync": false,
+            "settingsSyncVersion": 1755386541687
+        }
+    },
+    "quickCss": "@import url(\"https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css\");\r\n@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);\r\n@import url(\"https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css\");\r\n@import url(https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css);\r\n\r\n\r\n\r\n/**@import url(\"https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css\");\r\n\r\n * @name Vesper\r\n * @author Igor Bedesqui\r\n * @description Orange flavored theme for Discord. Based on the Vesper VSCode theme https://github.com/raunofreiberg/vesper.\r\n * @version 0.0.2\r\n */\r\n/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */\r\n\r\n@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);\r\n@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');\r\n\r\n/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker */\r\n\r\n:root {\r\n\r\n  --app-border-frame: none !important;\r\n  /* VESPER COLORS */\r\n  /* Gotta copy paste them for some reason. It's fine. */\r\n  --vspr-bg-base: 8, 8, 8; /* #101010 */\r\n  --vspr-bg-subtle: 28, 28, 28; /* #1c1c1c */\r\n  --vspr-fg-base: 255, 255, 255; /* #ffffff */\r\n  --vspr-fg-subtle: 160, 160, 160; /* #a0a0a0 */\r\n  --vspr-accent: 37, 37, 37; /* #ffc799 */\r\n  --vspr-fg-err: 37, 37, 37; /* #ff8080 */\r\n  --vspr-fg-suc: 37, 37, 37; /* #99ffe4 */\r\n\r\n  /* END VESPER COLORS */\r\n\r\n  --settingsicons: 0; /*\tUse Settings Icons in User Settings: 1 = yes, 0 = no */\r\n  --font: \"Geist\", \"gg sans\", \"Noto Sans\"; /*\tGeneral Font */\r\n\r\n  --accentcolor: 85, 85, 85; /*\tBlurple\t\t\t-\tdefault:\t88,101,242\t\t-\thex:\t#5865f2 */\r\n  --accentcolor2: 85, 85, 85; /*\tBoostpink\t\t-\tdefault:\t255,115,250\t\t-\thex:\t#ff73fa */\r\n  --linkcolor: 37, 37, 37; /*\tLink Color\t\t-\tdefault:\t0,176,244\t\t-\thex:\t#00b0f4 */\r\n  --mentioncolor: 85, 85, 85; /*\tHighlight Color\t\t-\tdefault:\t250,166,26\t\t-\thex:\t#faa61a */\r\n  --successcolor: 37, 37, 37; /*\tSuccess Color\t\t-\tdefault:\t59,165,92\t\t-\thex:\t#3ba55c */\r\n  --warningcolor: 37, 37, 37; /*\tWarning Color\t\t-\tdefault:\t250,166,26\t\t-\thex:\t#faa61a */\r\n  --dangercolor: 37, 37, 37; /*\tDanger Color\t\t-\tdefault:\t237,66,69\t\t-\thex:\t#ed4245 */\r\n\r\n  --textbrightest: 255, 255, 255; /*\tText Color 1\t\t-\tdefault:\t255,255,255\t\t-\thex:\t#ffffff */\r\n  --textbrighter: 190, 190, 190; /*\tText Color 2\t\t-\tdefault:\t220,221,222\t\t-\thex:\t#dcddde */\r\n  --textbright: 180, 180, 180; /*\tText Color 3\t\t-\tdefault:\t185,187,190\t\t-\thex:\t#b9bbbe */\r\n  --textdark: 180, 180, 180; /*\tText Color 4\t\t-\tdefault:\t142,146,151\t\t-\thex:\t#8e9297 */\r\n  --textdarker: 140, 140, 140; /*\tText Color 5\t\t-\tdefault:\t114,118,125\t\t-\thex:\t#72767d */\r\n  --textdarkest: 126, 126, 126; /*\tText Color 6\t\t-\tdefault:\t79,84,92\t\t-\thex:\t#4f545c */\r\n\r\n  --backgroundaccent: 40, 40, 40; /*\tBackground Accent\t-\tdefault:\t64,68,75\t\t-\thex:\t#40444b */\r\n  --backgroundprimary: 8, 8, 8; /*\tBackground 1\t\t-\tdefault:\t54,57,63\t\t-\thex:\t#36393f */\r\n  --backgroundsecondary: 8, 8, 8; /*\tBackground 2\t\t-\tdefault:\t47,49,54\t\t-\thex:\t#2f3136 */\r\n  --backgroundsecondaryalt: 8, 8, 8; /*\tBackground 3\t\t-\tdefault:\t41,43,47\t\t-\thex:\t#292b2f */\r\n  --backgroundtertiary: 8, 8, 8; /*\tBackground 4\t\t-\tdefault:\t32,34,37\t\t-\thex:\t#202225 */\r\n  --backgroundfloating: 28, 28, 28; /*\tBackground Elevated\t-\tdefault:\t24,25,28\t\t-\thex:\t#18191c */\r\n\r\n  --font-code: \"Geist Mono\", monospace !important;\r\n}\r\n\r\n/* My stuff */\r\n/* Make text-area in chats transparent */\r\n.themedBackground__6b1b6 {\r\n  background: transparent;\r\n}\r\n\r\n/* Reduce space between text area and bottom of the screen */\r\n.channelTextArea__2e60f {\r\n  margin-bottom: 12px;\r\n}\r\n\r\n/* Reduce space between last message and text area */\r\n.scrollerSpacer__9cd32 {\r\n  height: 16px;\r\n}\r\n\r\n/* Align attach button to the left */\r\n.sansAttachButton__996a4 {\r\n  padding-left: 0;\r\n}\r\n\r\n/* Make input in cmdk transparent */\r\n.input__848cd {\r\n  background: transparent;\r\n}\r\n\r\n/* Remove padding around cmdk so selected item spans to the edge */\r\n.quickswitcher_a3d29a {\r\n  padding: 0;\r\n}\r\n\r\n/* Prevent scroller from extending out of parent */\r\n.scroller__52ae7 {\r\n  margin-right: 0;\r\n}\r\n\r\n/* Add padding so protip in dmk doesn't touch the edge */\r\n.protip__84833 {\r\n  padding-inline: 10px;\r\n}\r\n\r\n/* Vesper color for code snippets in chat */\r\n.hljs-selector-class,.hljs-number, .hljs-meta,.hljs-title,.hljs-literal,.hljs-built_in,.hljs-name,.hljs-section {\r\n    color: #ffc799 !important;\r\n}\r\n\r\n.hljs-attribute,.hljs-title.class_,.hljs,.hljs-attr,.hljs-variable {\r\n  color: #ffffff !important;\r\n}\r\n\r\n.hljs-selector-pseudo,.hljs-keyword,.hljs-type {\r\n  color: #a0a0a0 !important;\r\n}\r\n\r\n.hljs-string {\r\n  color: #99ffe4 !important;\r\n}\r\n.searchBar__35e86  {\r\n  display: none;\r\n}\r\n\r\n.hljs  {\r\n  background-color: var(--bg-3) !important;\r\n}\r\n\r\n* {\r\n  font-family: var(--font-sans);\r\n}\r\n\r\n.visual-refresh .textContainer__4d95d {\r\n  background-color: var(--bg-3) !important;\r\n}\r\n\r\nbody {\r\n    font-family: 'Inter', sans-serif;\r\n}\r\n\r\n/* Example usage */\r\ncode {\r\n    font-family: 'JetBrains Mono', monospace;\r\n}\r\n\r\n\r\n.visual-refresh .expandedFolderIconWrapper__48112 {\r\n    border-radius: 12px;\r\n    width: var(--guildbar-avatar-size);\r\n    height: var(--guildbar-avatar-size);\r\n    margin: var(--space-4);\r\n    margin-top: 15px;\r\n}\r\n\r\n\r\n\r\n\r\n.container_ab8609, .editable_ab8609 {\r\n  display: none;\r\n}\r\n\r\n@font-face { font-family: 'Iosevka Nerd Font'; src: url('https://spectralinsights.github.io/fonts/Iosevka/IosevkaNerdFontMono-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal;}\r\n\r\n/* * {font-family: 'Iosevka Nerd Font' !important;} */\r\n\r\n:where(.overlay_c0bea0) {\r\n  background-color: transparent !important;\r\n}\r\n\r\n.overlay_c0bea0 {\r\n  background-color: transparent !important;\r\n}\r\n\r\n\r\n\r\n.markup__75297 code, .footer__4d95d, .textContainer__4d95d, .wrapper_d5f3cd {\r\n  border: 1px solid #151515 !important;\r\n}\r\n\r\n@import url(\"https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css\");\r\n\r\n\r\n.container__0f2e8, .openOnHover__0f2e8, .headerContainer__095fe, .tadaIcon_eff079\r\n {\r\n  display: none !important;\r\n}\r\n\r\n\r\n.progressBar_eff079 {\r\n  background: #252525 !important;\r\n}\r\n\r\n.flowerStar__3e3b0 > path {\r\n  fill: #75757575;\r\n}\r\n\r\n.modeSelected__2ea32 .link__2ea32, .modeSelected__2ea32:hover .link__2ea32 {\r\n  background-color: #121212 !important;\r\n}\r\n\r\n\r\n\r\n:where(.banner__68edb):before {\r\n  display: none;\r\n}\r\n\r\n\r\n.tabBar_d1d9f3 {\r\n  border-bottom: none;\r\n}\r\n\r\n\r\n.privateChannelsHeaderContainer__99e7c {\r\n  display: none;\r\n}\r\n\r\n\r\nspan.clanTag__5d473 {\r\n  border: 1px solid #252525;\r\n  background-color: transparent;\r\n}\r\n\r\n\r\n\r\n\r\ntextarea[aria-label=\"Note\"] {\r\n  display: none !important;\r\n}\r\n\r\n/* OR: hide the whole section that contains the textarea */\r\ntextarea[aria-label=\"Note\"] {\r\n  display: none !important; /* Hides only the box */\r\n}\r\n\r\ntextarea[aria-label=\"Note\"] {\r\n  display: none !important;\r\n}\r\n\r\nsection[aria-labelledby=\"uid_334\"] {\r\n  display: none !important;\r\n}\r\n\r\n\r\nsection[aria-labelledby=\"uid_458\"] {\r\n  display: none !important;\r\n}\r\n\r\nsection[aria-labelledby=\"uid_458\"] {\r\n  display: none !important;\r\n}\r\n\r\n\r\n.guildInviteContainer__083ae {\r\n  width: 400px;\r\n  max-width: 100%;\r\n  display: flex;\r\n  flex-direction: row !important;\r\n  flex-wrap: nowrap !important;\r\n  align-items: end;\r\n  justify-content: space-between;\r\n  padding: 8px;\r\n  gap: 8px;\r\n  height: calc(48px + 72px);\r\n\r\n  .cardHeightMeasure__083ae {\r\n    flex-direction: row !important;\r\n    flex-wrap: nowrap !important;\r\n    gap: 8px;\r\n    flex: 1 1 auto!important;\r\n  min-width: 0;               \r\n  }\r\n\r\n  .mainContent__083ae,\r\n  .established__6e500 {\r\n    display: none;\r\n  }\r\n\r\n  .avatarContainer_dca174 {\r\n    margin-top: 0px;\r\n    padding: 0px;\r\n    overflow: hidden;\r\n    min-width: 48px;\r\n\r\n    foreignObject {\r\n      mask: none !important;\r\n      overflow: hidden;\r\n      border-radius: 16px;\r\n    }\r\n\r\n    >svg {\r\n      width: 48px;\r\n      height: 48px;\r\n    }\r\n  }\r\n\r\n  .footer__083ae {\r\n    width: fit-content;\r\n    flex-shrink: 0 !important;\r\n    height: 48px;\r\nalign-content: center;\r\n    .buttonContainer__083ae {\r\n      padding: 0px;\r\n      width: fit-content;\r\n\r\n      .button__201d5 {\r\n        width: auto;\r\n      }\r\n    }\r\n  }\r\n\r\n  .header__6e500 {\r\n    width: max-content !important;\r\n    padding: 0px;\r\n    margin: 0px;\r\n    white-space: nowrap;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n\r\n    .nameContainer__6e500, .members__6e500, .memberCount__6e500{\r\n      width: 100%!important;\r\n      flex-wrap: nowrap;\r\n    }\r\n\r\n    [data-text-variant] {\r\n      white-space: nowrap;\r\n      overflow: hidden;\r\n      text-overflow: ellipsis;\r\n    }\r\n  }\r\n\r\n  .banner__083ae {\r\n    position: absolute;\r\n    top: 0px;\r\n    right: 0px;\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n\r\n\r\n/* remove gradient glow in chat and user list */\r\n.threeColorGradient_e5de78,\r\n.twoColorGradient_e5de78 {\r\n  &.usernameGradient_e5de78 {\r\n    color: color-mix(in lab, var(--custom-gradient-color-1), var(--custom-gradient-color-2));\r\n    background: none;\r\n    -webkit-text-fill-color: initial;\r\n  }\r\n\r\n  &::after,\r\n  &.nameGlow__703b9 {\r\n      display: none;\r\n  }\r\n}\r\n\r\n\r\n.inner_c0bea0, .container__6f250, .grid__623de.hasThumbnail__623de  {\r\n  border: 1px solid #151515 !important;\r\n\r\n}\r\n\r\n.grid__623de.hasThumbnail__623de, .grid__623de {\r\n  border-top-right-radius: 8px;\r\n  border-bottom-right-radius: 8px;\r\n}\r\n\r\n .embedFull__623de {\r\n  border: 4px solid #151515 !important;\r\n }\r\n\r\n\r\n.banner__68edb {\r\n  background-color: #080808 !important;\r\n}\r\n\r\n.grid__623de {\r\n  border: 1px solid #151515;\r\n}\r\n\r\n\r\n.originalLink_af017a {\r\n  border-radius: inherit;\r\n  border: 1px solid #151515;\r\n}\r\n\r\n\r\n.inner_c0bea0, .container__6f250, .grid__623de.hasThumbnail__623de  {\r\n  border: 1px solid #151515 !important;\r\n  border-radius: inherit !important;\r\n}\r\n\r\n\r\n.vc-shiki-root .vc-shiki-code {\r\n  background-color: #080808 !important;\r\n}\r\n\r\n\r\n\r\n.icon_a629d4 {\r\n    background-color: #202020 !important;\r\n    color: #cacaca;\r\n}\r\n\r\n\r\n.perksDemoContainer__5dec7 > svg > path{\r\n    fill: #cacaca !important;\r\n}\r\n\r\n.text__87e56 {\r\n    color: #cacaca;\r\n}\r\n\r\n/* \r\n.text-sm\\/medium_cf4812 {\r\n    display: none;\r\n} */\r\n\r\n\r\n.perksDemoContainer__5dec7 {\r\n    display: none;\r\n}\r\n\r\n\r\n\r\n\r\n.perksDemoContainer__5dec7 {\r\n    display: none;\r\n}\r\n\r\n.containerDefault__29444 {\r\n  > div {\r\n    padding-left: 0.5em;\r\n\r\n    > div {\r\n      display: flex !important;\r\n      place-content: start !important;\r\n      flex-direction: row-reverse !important;\r\n    }\r\n  }\r\n}\r\n\r\nform>div.focusLock__49fc1>div.rootWithShadow__49fc1 {\r\n    width: var(--modal-width-medium);\r\n\r\n    .header__49fc1 {\r\n        padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);\r\n        margin-bottom: var(--modal-vertical-padding);\r\n        border-bottom: var(--border-normal) solid 1px;\r\n\r\n        .colorHeaderPrimary_c9946a {\r\n            text-align: center;\r\n            font-weight: var(--font-weight-semibold);\r\n            flex-grow: 1;\r\n        }\r\n\r\n        .closeButton_e858dd {\r\n            top: unset;\r\n            right: var(--modal-horizontal-padding);\r\n            margin-bottom: auto;\r\n            margin-top: auto;\r\n\r\n            .contents__201d5 {\r\n                height: 24px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .submissionWarning_e858dd {\r\n        display: none;\r\n    }\r\n\r\n    .formItem__1b11b .eyebrow_b717a1 {\r\n        margin-bottom: 4px;\r\n\r\n        .errorMessage_b717a1 {\r\n            color: var(--text-danger);\r\n        }\r\n    }\r\n\r\n    .input__0ed4f.error__0ed4f:focus {\r\n        color: var(--text-normal);\r\n        transition-property: border-color, color;\r\n    }\r\n\r\n    .footer__49fc1 {\r\n        justify-content: space-between;\r\n    }\r\n}\r\n\r\n.tile_d6271c {\r\n    width: 200px !important;\r\n\r\n    .tileSizer_d6271c {\r\n        aspect-ratio: 1 / 1;\r\n        width: 200px;\r\n\r\n        .tile__2f4f7,\r\n        .background_fb62e2 {\r\n            background: none !important;\r\n        }\r\n\r\n        .border__2f4f7 {\r\n            width: 84px;\r\n            height: 84px;\r\n            align-self: center;\r\n            justify-self: center;\r\n            border-radius: 100%;\r\n        }\r\n\r\n        .overlayContainer__2f4f7 {\r\n            z-index: 100;\r\n            width: 150px;\r\n            height: 150px;\r\n            align-self: center;\r\n            justify-self: center;\r\n            gap: 0;\r\n\r\n            .overlayBottom__2f4f7 {\r\n                height: 130px;\r\n                flex-direction: column-reverse;\r\n                justify-content: space-between;\r\n\r\n                .overlayTitle__2f4f7 {\r\n                    opacity: 1;\r\n                    top: 0;\r\n                    justify-content: center;\r\n                    padding: 6px;\r\n                    margin: 0px !important;\r\n                    background: linear-gradient(to top, black 0%, transparent 100%) !important;\r\n                    border-radius: 0px;\r\n                }\r\n\r\n                .statusContainer__2f4f7 {\r\n                    width: 84px;\r\n                    align-items: end;\r\n                    align-content: end;\r\n                    justify-content: end;\r\n\r\n                    .status__2f4f7 {\r\n                        backdrop-filter: blur(10px);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .tileChild__2f4f7:has(.videoWrapper__2f4f7) {\r\n        .overlayContainer__2f4f7 {\r\n            width: calc(100% - 16px);\r\n            height: calc(100% - 16px);\r\n            z-index: auto;\r\n        }\r\n\r\n        .border__2f4f7 {\r\n            position: absolute;\r\n            top: 0;\r\n            left: 0;\r\n            right: 0;\r\n            bottom: 0;\r\n            border-radius: var(--custom-base-tile-border-radius);\r\n            pointer-events: none;\r\n            width: 100%;\r\n            height: 100%;\r\n        }\r\n    }\r\n}\r\n\r\n\r\n/* good */\r\n\r\n\r\n.tile_d6271c {\r\n    width: 200px !important;\r\n\r\n    .tileSizer_d6271c {\r\n        aspect-ratio: 1 / 1;\r\n        width: 200px;\r\n\r\n        .tile__2f4f7,\r\n        .background_fb62e2 {\r\n            background: none !important;\r\n        }\r\n\r\n        .border__2f4f7 {\r\n            width: 84px;\r\n            height: 84px;\r\n            align-self: center;\r\n            justify-self: center;\r\n            border-radius: 100%;\r\n        }\r\n\r\n        .overlayContainer__2f4f7 {\r\n            z-index: 100;\r\n            width: 150px;\r\n            height: 150px;\r\n            align-self: center;\r\n            justify-self: center;\r\n            gap: 0;\r\n\r\n            .overlayBottom__2f4f7 {\r\n                height: 130px;\r\n                flex-direction: column-reverse;\r\n                justify-content: space-between;\r\n\r\n                .overlayTitle__2f4f7 {\r\n                    opacity: 1;\r\n                    top: 0;\r\n                    justify-content: center;\r\n                    padding: 6px;\r\n                    margin: 0px !important;\r\n                    background: linear-gradient(to top, black 0%, transparent 100%) !important;\r\n                    border-radius: 0px;\r\n                }\r\n\r\n                .statusContainer__2f4f7 {\r\n                    width: 84px;\r\n                    align-items: end;\r\n                    align-content: end;\r\n                    justify-content: end;\r\n\r\n                    .status__2f4f7 {\r\n                        backdrop-filter: blur(10px);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .tileChild__2f4f7:has(.videoWrapper__2f4f7) {\r\n        .overlayContainer__2f4f7 {\r\n            width: calc(100% - 16px);\r\n            height: calc(100% - 16px);\r\n            z-index: auto;\r\n        }\r\n\r\n        .border__2f4f7 {\r\n            position: absolute;\r\n            top: 0;\r\n            left: 0;\r\n            right: 0;\r\n            bottom: 0;\r\n            border-radius: var(--custom-base-tile-border-radius);\r\n            pointer-events: none;\r\n            width: 100%;\r\n            height: 100%;\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\r\n.listItems_affa7e {\r\n    display: flex;\r\n    align-content: center;\r\n    justify-content: center;\r\n    flex-wrap: wrap;\r\n    gap: 0px;\r\n}\r\n\r\n.controlSection_bfe55a {\r\n    opacity: 1 !important;\r\n    transform: none !important;\r\n}\r\n\r\n\r\n.layerContainer_da8173:has(.carouselModal_d3a6f0) .tooltip__382e7 {\r\n    display: none;\r\n}\r\n\r\n.carouselModal_d3a6f0 {\r\n    justify-content: center;\r\n    display: flex;\r\n    gap: 8px;\r\n    width: fit-content;\r\n    margin: auto;\r\n\r\n    .topBar__6088c {\r\n        place-self: start;\r\n        order: 1;\r\n\r\n        .actionButtons_cc1819 {\r\n            padding: 0px !important;\r\n            margin: 0px !important;\r\n            background-color: transparent;\r\n            border: none;\r\n        }\r\n\r\n        .authorAvatar__6088c,\r\n        .author__6088c,\r\n        .closeButton__6088c,\r\n        .actionButton_cc1819:has(path[d=\"M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z\"]),\r\n        .actionButton_cc1819:has(path[d=\"M21.7 7.3a1 1 0 0 1 0 1.4l-5 5a1 1 0 0 1-1.4-1.4L18.58 9H13a7 7 0 0 0-7 7v4a1 1 0 1 1-2 0v-4a9 9 0 0 1 9-9h5.59l-3.3-3.3a1 1 0 0 1 1.42-1.4l5 5Z\"]),\r\n        .actionButton_cc1819:has(path[d=\"M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z\"]) {\r\n            display: none !important;\r\n        }\r\n\r\n        .actionButton_cc1819:has(path[d=\"M15 2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V4.41l-4.3 4.3a1 1 0 1 1-1.4-1.42L19.58 3H16a1 1 0 0 1-1-1Z\"]) {\r\n            width: auto;\r\n            height: 0;\r\n\r\n            &::after {\r\n                content: \"Open in browser\";\r\n                width: max-content;\r\n                display: flex;\r\n                height: auto;\r\n                pointer-events: all;\r\n\r\n                :hover {\r\n                    color: white;\r\n                }\r\n            }\r\n\r\n            &::after:hover {\r\n                color: white;\r\n            }\r\n\r\n            .actionButtonInner_cc1819 {\r\n                display: none;\r\n\r\n            }\r\n        }\r\n    }\r\n\r\n    .navPrev_b2eddf {\r\n        position: fixed;\r\n        left: -64px;\r\n        background-color: transparent;\r\n\r\n        .buttonInner_aec7ab {\r\n            border: none !important;\r\n        }\r\n    }\r\n\r\n    .navNext_b2eddf {\r\n        position: fixed;\r\n        right: -64px;\r\n        background-color: transparent;\r\n\r\n        .buttonInner_aec7ab {\r\n            border: none !important;\r\n        }\r\n    }\r\n    .galleryContainer_d75751 {\r\n        display: none;\r\n    }\r\n}\r\n\r\n[class*=\"rtcConnectionStatusWrapper__\"] {\r\n    [class*=\"rtcConnectionStatus__\"] + a > div > div {\r\n        display: none !important;\r\n    }\r\n}\r\n\r\n.childWrapperNoHoverBg__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8 {\r\n    background-color: #121212 !important;\r\n}\r\n\r\n.lookFilled__201d5.colorPrimary__201d5 {\r\n    background-color: #101010 !important;\r\n    color: #cacaca !important;\r\n}\r\n\r\n.lookFilled__201d5.colorPrimary__201d5:hover {\r\n    background-color: #202020 !important;\r\n    color: #cacaca !important;\r\n}\r\n\r\n.postEnrollmentBackground__636a2 {\r\n    background-color: #080808 !important;\r\n    background-image: none !important;\r\n}\r\n\r\n.autocompleteRow__13533:has(.icon_ca5f52[src=\"https://cdn.discordapp.com/avatars/1211781489931452447/2b5cd2dc89eb963155f55520a6fa0495.webp?size=32\"]),\r\n.iconCard_cb32c7:has(.iconCard_cb32c7[src=\"https://cdn.discordapp.com/app-icons/1211781489931452447/8904fec86de9bb7a71b2ae1e71a1adbc.png?size=128\"]),\r\n.container_cb32c7[aria-label^=\"Wordle\"] {\r\n  display: none;\r\n}\r\n\r\n.colorable_f1ceac.disconnect_f1ceac {\r\n    background-color: #101010 !important;\r\n}\r\n\r\n.colorable_f1ceac.disconnect_f1ceac, .colorable_f1ceac.disconnect_f1ceac .centerIcon_f1ceac {\r\n    color: #cacaca;\r\n}\r\n\r\n\r\n.streamPreview__2f4f7 {\r\n    background-color: #353535 !important;\r\n\r\n}\r\n\r\n\r\n\r\n@container root style(--colors: on) {\r\n    .visual-refresh {\r\n        .colorable_f1ceac.primaryDark_f1ceac, .reaction_f8896c {\r\n            background-color: #151515 !important;\r\n        }\r\n    }\r\n}\r\n\r\n\r\n/* Custom stuff */\r\n\r\n@property --show-chatbar-icons {\r\n    syntax: 'off | on';\r\n    inherits: false;\r\n    initial-value: on;\r\n}\r\n\r\n\r\n@container body style(--show-chatbar-icons: off) {\r\n  .buttons__74017 {\r\n    display: none !important;\r\n  }\r\n}\r\n\r\n\r\n\r\n/* option to hide screenshare popout */\r\n@property --screenshare-pop-up-window {\r\n  syntax: 'on | off';\r\n  inherits: false;\r\n  initial-value: on;\r\n}\r\n\r\n@container body style(--screenshare-pop-up-window: off) {\r\n  .pictureInPictureWindow__6341f {\r\n    display: none !important;\r\n  }\r\n}\r\n\r\n\r\n\r\n/* call background color of people profiles in call */\r\n@property --call-gray-color-background-icons {\r\n  syntax: 'on | off';\r\n  inherits: false;\r\n  initial-value: off;\r\n}\r\n\r\n@container body style(--call-gray-color-background-icons: on) {\r\n  .background_fb62e2 {\r\n    background-color: #151515 !important;\r\n    border-radius: inherit;\r\n  }\r\n}\r\n\r\n\r\n\r\n.contentAndCopyButtonWrapper__98ba8, .contentContainer__98ba8, .contentWrapper__98ba8 {\r\n    background: #080808;\r\n    border: 1px solid #151515;\r\n}\r\n\r\n\r\n.section[aria-label=\"User area\"], div[class*=\"sidebar_\"] > section[aria-label] {\r\n  background-color: transparent !important;\r\n}\r\n\r\n\r\n.voiceCallWrapper_a21736 {\r\n  background-color: #080808;\r\n}\r\n\r\n@font-face { font-family: 'Iosevka Nerd Font'; src: url('https://spectralinsights.github.io/fonts/Iosevka/IosevkaNerdFontMono-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal;}\r\n\r\n* {font-family: 'Iosevka Nerd Font' !important;}\r\n\r\n\r\n.theme-light:not(.custom-user-profile-theme), .theme-dark:not(.custom-user-profile-theme), .theme-amoled:not(.custom-user-profile-theme), .visual-refresh.theme-light:not(.custom-user-profile-theme), .visual-refresh.theme-dark:not(.custom-user-profile-theme), .visual-refresh.theme-amoled:not(.custom-user-profile-theme), .visual-refresh .theme-light:not(.custom-user-profile-theme), .visual-refresh .theme-dark:not(.custom-user-profile-theme), .visual-refresh .theme-amoled:not(.custom-user-profile-theme) {\r\n  --app-border-frame: none !important;\r\n}\r\n"
+}
